@@ -3,7 +3,7 @@ def f4():
     try:
         x = int(x)
     except ValueError:
-        x = input()
+
         if x == 'quit' or 'exit':
             return 0
 
